@@ -1,0 +1,39 @@
+/* General */
+html {
+  box-sizing: border-box;
+  font-size: 62.5%; /* 1REM = 10px */
+}
+.container{
+  max-width: 60rem;
+  margin: 0 auto;
+}
+img{
+  max-width: 100%;
+  display: block;
+}
+/* Utilities  */
+.text-center{
+  text-align: center;
+}
+/* banner section */
+.heading{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.profile-image img{
+  margin: 2rem 0;
+  height: 100%;
+  width: 15rem;
+  border-radius: 50%;
+  object-fit: cover;
+}
+/* description section */
+.description{
+  background-color: azure;
+}
+/* details section */
+.details{
+  margin: 5rem 0;
+}
